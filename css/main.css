@@ -1,0 +1,99 @@
+        body{
+            background-image:url("../images/kong.png");
+             background-repeat: no-repeat;
+            height:1080px;
+        }
+        #zou{
+            width:50px;
+            height:50px;
+            float: left;
+            margin-right:20px;
+
+        }
+        #zou img{
+            width:50px;
+            height:50px;
+            cursor:pointer;
+        }
+        #you{
+            width:50px;
+            height:50px;
+            float: left;
+            margin-left:20px;
+
+        }
+        #you img{
+            width:50px;
+            height:50px;
+            cursor:pointer;
+
+        }
+        #zhong{
+            height:864px;
+            width:1356px;
+            margin-left:50px;
+            margin-right:50px;
+            margin:auto;
+            margin-top:10px;
+            line-height:864px;
+        }
+        #benti{
+            width:577px;
+            margin-left: 577px;
+            transform-origin: 0 50%;
+            position: absolute;
+            z-index: 50;
+            // display: none;
+
+        }
+        #benti img{
+            box-shadow: 5px 5px 5px 5px #222;
+
+        }
+        #dier img{
+            box-shadow: 5px 5px 5px 5px #222;
+
+        }
+        #dier{
+            width:577px;
+            margin-left: 577px;
+            transform-origin: 0 50%;
+            position: absolute;
+            z-index: 49;
+            // display: none;
+
+        }
+        #fan{
+            width:577px;
+            margin-left: 577px;
+            transform-origin: 0 50%;
+            position: absolute;
+            z-index: 48;
+        }
+        #tu{
+            height:864px;
+            width:1156px;
+            margin:auto;
+            float: left;
+            // box-shadow: -5px 5px 5px 5px #222;
+        }
+        @keyframes myfirst {
+    0% {
+        -webkit-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+        transform: rotateY(0deg);
+
+    }
+    100% {
+        -webkit-transform: rotateY(-160deg);
+        -ms-transform: rotateY(-160deg);
+        -o-transform: rotateY(-160deg);
+        transform: rotateY(-160deg);
+    }
+    // 100% {
+    //     -webkit-transform: rotateY(0deg);
+    //     -ms-transform: rotateY(0deg);
+    //     -o-transform: rotateY(0deg);
+    //     transform: rotateY(0deg);
+    }
